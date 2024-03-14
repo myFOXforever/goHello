@@ -10,3 +10,7 @@ func SayHello(name string) {
 func SayBye(name string) {
 	fmt.Println("bye", name)
 }
+
+func Sum(a, b int) int {
+	return a + b
+}
